@@ -1,0 +1,58 @@
+
+.main{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.up-navbar{
+  width: auto;
+  display: flex;
+  position: absolute;
+  top: 50px;
+  border-radius: 30px;
+  padding: 10px 25px;
+  background-color: #868383;
+  box-shadow: 3px 5px 15px;
+}
+
+.bt-navbar{
+  width: 70%;
+  height: 50px;
+  padding: 30px;
+  background-color: #595959;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 150px;
+  align-items: center;
+  box-shadow: 5px 5px 20px;
+}
+
+.btn{
+  width: auto;
+  padding:5px 15px;
+  border-radius: 7px;
+  background-color: rgb(149, 150, 151);
+  color:rgb(255, 255, 255);
+  border:2px rgb(232, 230, 230) solid ;
+  text-transform: capitalize;
+}
+.btn:active{
+  transform: scale(0.9);
+}
+
+.inp{
+  border-radius: 30px;
+  border: dashed red 2px;
+  padding: 0 10px;
+  font-size: 15px;
+}
+inp::placeholder{
+  color: purple;
+  padding: 0 10px;
+}
